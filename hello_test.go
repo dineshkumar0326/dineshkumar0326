@@ -3,7 +3,7 @@ package main
 import "testing"
 
 func TestHello(t *testing.T) {
-	emptyResult := hello("Test")
+	emptyResult := hello("")
 
 	if emptyResult != "Hello " {
 		t.Errorf("Test failed, expected %v, got %v", "Hello", emptyResult)
