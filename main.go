@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	greetMessage := hello("John")
+	sum := Add(5, 6)
 
-	fmt.Println(greetMessage)
+	fmt.Println(sum)
 }
